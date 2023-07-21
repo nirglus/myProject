@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Nir Gluskin</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#myResume">Resume</a></li>
+            </ul>
+        </nav>
+        <div id="headertxt">
+         <h1>Nir Gluskin</h1>
+         <h2>Software Developer<span id="dot">.</span></h2>
+         <div class=cards>
+            <div class=card>
+              <h3><i class="fa fa-male" aria-hidden="true"></i> Name</h3>
+              <p>Nir Gluskin</p>
+            </div>
+            <div class=card>
+              <h3><i class="fa fa-phone" aria-hidden="true"></i> Phone Number</h3>
+              <p>+972549214212</p>
+            </div>
+            <div class=card>
+              <h3><i class="fa fa-envelope-o" aria-hidden="true"></i> E-Mail</h3>
+              <p><a href="mailto:nirgluskin@gmail.com">nirgluskin@gmail.com</a></p>
+            </div>
+            <div class=card>
+              <h3><i class="fa fa-github"></i> GitHub</h3>
+              <p><a href="https://github.com/nirglus">nirglus</a></p>
+            </div>
+        </div>
+      </div>
+    </header>
+    <section>
+        <div id="about">
+            <h1 class="headings">Who am I?</h1>
+            <div class="underline-border"></div>
+            <article>
+                <h3>About Me</h3>
+                <h2>Nir Gluskin</h2>
+                <p>A programmer and a racing driver.<br>
+                   Born and raised in the city of Lod,Israel.<br>
+                   I'm a hard working person, who loves being challenged.<br>
+                   Doing every mission and challenge with emotion and pation.</p>
+            </article>   
+        </div>
+        <div id="myResume">
+            <h1 class="headings">My Resume<span id="dot">.</span></h1>
+            <div class="underline-border"></div>
+            <table>
+                <thead><th>Educational Quality</th><th>Service & Employment</th><th>Training Summary</th></thead>
+                <tbody>
+                    <tr><td>First School<br><span>Ganey Aviv School (2004-2010)</span></td><td>Millitary Service<br><span>5700 unit, IDF (2016-2019)</span></td><td>Web Development<br><span>Udemy (2022-2023)</span></tr>
+                    <tr><td>High School<br><span>Maxim Levy School (2010-2016)</span></td><td>Product Sorter<br><span>James Richardson (2019-2020)</span></td><td>Web Designer<br><span>Udemy (2022-2023)</span></td></tr>
+                    <tr><td>Introduction to HTML,CSS certificate<br><span>SoloLearn (2023)</span></td><td>Security Guard<br><span>Israel Aerospace Industries (2020-2023)</span></td><td>Programming<br><span>IITC College (2023-2024)</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="underline-border"></div>
+    </section>
+    <footer>
+        <details>
+            <summary>Checkout my projects on GitHub <i class="fa fa-hand-o-down"></i></summary>
+            <ul>
+                <li><a href="http://nirglus.github.io/Hotel-Site-Design/">A Hotel website</a></li>
+                <li><a href="http://">Country project</a></li>
+                <li><a href="http://">About myself website</a></li>
+            </ul>
+        </details>
+        <div class="icons">
+            <a class="fa fa-facebook-official" href="https://www.facebook.com/nirgluskin/"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/nirgluskin/"></a>
+            <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/nir-gluskin-a3b5a6279/"></a>
+            <a class="fa fa-github" href="https://github.com/nirglus"></a>
+        </div>
+        <p><em>Nir Gluskin © 2023</em></p>
+    </footer>
 </body>
 </html>

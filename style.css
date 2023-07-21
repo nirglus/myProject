@@ -1,3 +1,150 @@
 body{
-    background-color: rgb(255, 240, 72);
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.navbar ul li a{
+  margin: 0 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color: #1c9e62;
+}
+
+header{
+    background-image:url(images/nirphoto3.png);
+    height: 40rem;
+}
+a{
+    text-decoration: none;
+    color:#7F8487;
+}
+#headertxt{
+    position:relative;
+    margin-left: 7rem;
+    padding-top: 3rem;
+}
+/*Adding number and mail*/
+.cards{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.card{
+    background-color:#242424;
+    width: 12rem;
+    text-align: left;
+    text-indent: 0.3rem;
+    margin: 1rem;
+}
+.card p{
+    color:#7F8487;
+}
+.card:hover, td:hover{
+    border-left: solid 0.2rem #1c9e62;
+    margin-right: 0.2rem;
+}
+  /*Underline for headings*/
+.underline-border{
+    width: 0.2rem;
+    height: 2.5rem;
+    background-color: #1c9e62;
+    margin: 5px auto 10px auto;
+}
+.headings{
+    text-align: center;
+ }
+ /* About me section */
+ #about{
+    height: 25rem;
+ }
+ article{
+    margin: auto;
+    background-color:#242424;
+    height: 13rem;
+    width:29rem;
+    padding: 1rem;
+ }
+ article h3{
+    color: #1c9e62;
+    font-size: large;
+ }
+ article:hover{
+    border-left:solid #1c9e62;
+ }
+
+  
+/*Resume table*/
+table{
+    margin:auto;
+    border-spacing: 1rem;
+ }
+th{
+    padding: 0.4rem;
+    font-size: x-large;
+ }
+td{
+    height:9rem;
+    width:18rem;
+    background-color:#242424;
+    font-size: larger;
+    padding-left: 1rem;
+  }
+span{
+    font-size: medium;
+    color: #1c9e62;
+}
+  /*footer*/
+footer{
+    height: 17rem;
+    padding-bottom: 2rem;
+    
+}
+details{
+    padding-top: 3rem;
+    width: 17rem;
+    margin: auto;
+    
+}
+details > summary {
+    list-style-type: none;  
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+  }
+li a{
+    color: #fff;
+}  
+details li::before {
+    content: "• ";
+    color: #1c9e62;
+}
+.icons{
+    padding: 3rem;
+    text-align: center;
+}
+.icons a{
+    padding: 1rem;
+    text-align: center;
+}
+.icons a:hover{
+    color: #1c9e62;
+}
+footer p {
+    word-spacing: 0.5rem;
+    text-align: center;
+    font-size: smaller;
+    color:#7F8487;
+}
+#dot{
+    font-size: 2rem;
 }
