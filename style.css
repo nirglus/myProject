@@ -65,9 +65,11 @@ a{
  /* About me section */
  #about{
     height: 25rem;
+    align-items: center;
  }
  article{
     margin: auto;
+    margin-top: 2rem;
     background-color:#242424;
     height: 13rem;
     width:29rem;
@@ -114,6 +116,9 @@ details{
     margin: auto;
     
 }
+details:hover{
+    color: #1c9e62;
+}
 details > summary {
     list-style-type: none;  
     cursor: pointer;
@@ -123,7 +128,10 @@ ul{
   }
 li a{
     color: #fff;
-}  
+} 
+li a:hover{
+    color: #1c9e62;
+}
 details li::before {
     content: "• ";
     color: #1c9e62;
@@ -148,3 +156,6 @@ footer p {
 #dot{
     font-size: 2rem;
 }
+
+
+
