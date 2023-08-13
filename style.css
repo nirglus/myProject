@@ -3,6 +3,7 @@ body{
     color:#fff;
     font-family: 'Varela Round', sans-serif;
 }
+/* Navbar */
 .navbar{
     display: flex;
 }
@@ -21,7 +22,7 @@ body{
 }
 
 header{
-    background-image:url(images/nirphoto3.png);
+
     height: 40rem;
 }
 a{
