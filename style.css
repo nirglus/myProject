@@ -3,6 +3,7 @@ body{
     color:#fff;
     font-family: 'Varela Round', sans-serif;
     overflow-x: hidden;
+    width: 100vw;
 }
 /* Navbar */
 .navbar{
@@ -182,6 +183,23 @@ footer p {
 #dot{
     font-size: 2rem;
 }
-
+@media screen and (max-width:600px){
+    header{
+        height:fit-content;
+    }
+    .header-section{
+        margin: 0;
+        flex-direction: column;
+    }
+    #headertxt{
+        transform: scale(0.75);
+        justify-content: start;
+        margin-left:-2vw;
+    }
+    .myimg{
+        transform: scale(0.7);
+        margin-top: -10vh;
+    }
+}
 
 
