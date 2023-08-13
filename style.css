@@ -80,6 +80,12 @@ a{
     text-align: center;
  }
  /* About me section */
+ section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
  #about{
     height: 25rem;
     align-items: center;
