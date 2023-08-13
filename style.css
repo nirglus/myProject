@@ -177,8 +177,17 @@ footer p {
     font-size: smaller;
     color:#7F8487;
 }
-#dot{
-    font-size: 2rem;
+.dot{
+    background-color: #1c9e62;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.heading-with-dot{
+    display: flex;
+    align-items: end;
+    gap:2px;
 }
 @media screen and (max-width:600px){
     header{
