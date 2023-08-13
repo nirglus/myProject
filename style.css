@@ -29,11 +29,18 @@ a{
     color:#7F8487;
 }
 .header-section{
+    margin-top:10vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .myimg{
-    
+    display: flex;
+    justify-content: center;
+}
+.myimg img{
+    width:80%;
+    filter: grayscale(100%) contrast(154%);
 }
 
 #headertxt{
