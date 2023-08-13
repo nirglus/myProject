@@ -20,6 +20,23 @@ body{
     color: #1c9e62;
 }
 /* Header Section */
+@keyframes typing{
+    from{width:0;}
+    to{width:15vw;}
+}
+@keyframes blink-caret{
+    from{border-color: transparent;}
+    50%{border-color: #1c9e62;}
+    to {border-color: transparent;}
+}
+header h1{
+    overflow:hidden;
+    width:15vw;
+    border-right: 2px solid #1c9e62;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    animation: typing 2s steps(40,end), blink-caret .75s infinite;
+}
 header{
     height: 115vh;
     width: 100vw;
