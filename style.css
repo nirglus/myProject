@@ -54,12 +54,14 @@ a{
 
 /*Adding number and mail*/
 .cards{
-    display: inline-grid;
+    display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
   }
 .card{
     background-color:#242424;
-    width: 15vw;
+    padding:1%;
+    width:180px;
     text-align: left;
     text-indent: 0.3rem;
     margin: 2vh;
@@ -114,6 +116,7 @@ table{
 th{
     padding: 2%;
     font-size: x-large;
+    width:24vw;
  }
 td{
     height: 21vh;
