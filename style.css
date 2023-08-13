@@ -59,10 +59,11 @@ a{
   }
 .card{
     background-color:#242424;
-    width: 12rem;
+    width: 15vw;
     text-align: left;
     text-indent: 0.3rem;
-    margin: 1rem;
+    margin: 2vh;
+
 }
 .card p{
     color:#7F8487;
