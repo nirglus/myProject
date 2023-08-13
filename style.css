@@ -106,11 +106,10 @@ a{
 
 /*Resume table*/
 table{
-    margin:auto;
-    border-spacing: 1rem;
+    border-spacing: 10px;
  }
 th{
-    padding: 0.4rem;
+    padding: 2%;
     font-size: x-large;
  }
 td{
