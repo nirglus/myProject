@@ -187,6 +187,7 @@ footer p {
 .heading-with-dot{
     display: flex;
     align-items: end;
+    justify-content: center;
     gap:2px;
 }
 @media screen and (max-width:600px){
