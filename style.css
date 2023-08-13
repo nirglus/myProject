@@ -113,18 +113,18 @@ table{
  }
 th{
     padding: 2%;
-    font-size: x-large;
+    font-size: 1.2rem;
     width:24vw;
  }
 td{
     height: 21vh;
     width: 20vw;
     background-color:#242424;
-    font-size: larger;
+    font-size: 1rem;
     padding-left: 1vw;
   }
 span{
-    font-size: medium;
+    font-size: 0.9rem;
     color: #1c9e62;
 }
   /*footer*/
@@ -202,6 +202,18 @@ footer p {
     }
     nav{
        transform: translateX(6vw);
+    }
+    table{
+        width: 92vw;
+    }
+    th{
+        font-size: 0.8rem;
+    }
+    td{
+        font-size: 0.8rem;
+    }
+    span{
+        font-size: 0.7rem;
     }
 }
 
