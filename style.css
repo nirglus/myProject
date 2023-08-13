@@ -6,16 +6,14 @@ body{
     width: 100vw;
 }
 /* Navbar */
-.navbar{
+.navbar ul{
     display: flex;
+    gap:2vw;
 }
 .navbar ul li{
   list-style: none;
-  display: inline-block;
-  position: relative;
 }
 .navbar ul li a{
-  margin: 0 0.8rem;
   color: #fff;
   text-transform: uppercase;
 }
