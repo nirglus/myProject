@@ -138,6 +138,7 @@ footer{
 details{
     padding-top: 3vh;
     margin: auto;
+    transition: 1s;
 }
 details:hover{
     color: #1c9e62;
@@ -151,6 +152,7 @@ ul{
   }
 li a{
     color: #fff;
+    transition: 0.7s;
 } 
 li a:hover{
     color: #1c9e62;
@@ -166,6 +168,7 @@ details li::before {
 .icons a{
     padding: 1%;
     text-align: center;
+    transition: 0.7s;
 }
 .icons a:hover{
     color: #1c9e62;
