@@ -20,19 +20,27 @@ body{
 .navbar ul li a:hover{
     color: #1c9e62;
 }
-
+/* Header Section */
 header{
-
     height: 40rem;
 }
 a{
     text-decoration: none;
     color:#7F8487;
 }
+.header-section{
+    display: flex;
+}
+.myimg{
+   width:30%;
+}
 #headertxt{
     position:relative;
     margin-left: 7rem;
     padding-top: 3rem;
+}
+#headertxt h1, #headertxt h2{
+    width:30%;
 }
 /*Adding number and mail*/
 .cards{
