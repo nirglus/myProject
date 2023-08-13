@@ -218,6 +218,9 @@ footer p {
     span{
         font-size: 0.7rem;
     }
+    footer{
+        transform: scale(0.8);
+    }
 }
 
 
