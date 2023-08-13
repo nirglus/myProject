@@ -87,14 +87,14 @@ a{
     justify-content: center;
  }
  #about{
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
  }
  article{
-    margin: auto;
-    margin-top: 6vh;
     background-color:#242424;
     padding: 20px;
-
  }
  article h3{
     color: #1c9e62;
@@ -104,7 +104,6 @@ a{
     border-left:solid #1c9e62;
  }
 
-  
 /*Resume table*/
 table{
     margin:auto;
