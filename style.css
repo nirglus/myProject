@@ -131,15 +131,13 @@ span{
 }
   /*footer*/
 footer{
-    height: 17rem;
-    padding-bottom: 2rem;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
 }
 details{
-    padding-top: 3rem;
-    width: 17rem;
+    padding-top: 3vh;
     margin: auto;
-    
 }
 details:hover{
     color: #1c9e62;
