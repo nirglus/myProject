@@ -197,11 +197,12 @@ footer p {
         transform: scale(0.7);
         margin-top: -10vh;
     }
-    nav ul{
-        gap:4vw;
+    .navbar ul{
+        transform: scale(0.8);
+        gap: 6vw;
     }
     nav{
-       transform: translateX(6vw);
+       transform: translateX(1vw);
     }
     article{
         transform: scale(0.8);
