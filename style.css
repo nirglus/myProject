@@ -160,11 +160,11 @@ details li::before {
     color: #1c9e62;
 }
 .icons{
-    padding: 3rem;
+    padding: 3%;
     text-align: center;
 }
 .icons a{
-    padding: 1rem;
+    padding: 1%;
     text-align: center;
 }
 .icons a:hover{
