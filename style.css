@@ -203,6 +203,9 @@ footer p {
     nav{
        transform: translateX(6vw);
     }
+    article{
+        transform: scale(0.9);
+    }
     table{
         width: 92vw;
     }
