@@ -3,7 +3,6 @@ body{
     color:#fff;
     font-family: 'Varela Round', sans-serif;
     overflow-x: hidden;
-    width: 100vw;
 }
 /* Navbar */
 .navbar ul{
@@ -197,6 +196,12 @@ footer p {
     .myimg{
         transform: scale(0.7);
         margin-top: -10vh;
+    }
+    nav ul{
+        gap:4vw;
+    }
+    nav{
+       transform: translateX(6vw);
     }
 }
 
